@@ -1,0 +1,6 @@
+framework module CusFrameWork {
+  umbrella header "CusFrameWork.h"
+
+  export *
+  module * { export * }
+}

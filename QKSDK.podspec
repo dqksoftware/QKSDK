@@ -22,5 +22,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/dqksoftware/QKSDK.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "CusFrameWork.framework"
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
